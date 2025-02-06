@@ -1,0 +1,3 @@
+[submodule "als_ros2"]
+	path = als_ros2
+	url = https://github.com/illusionaryshelter/als_ros2.git
