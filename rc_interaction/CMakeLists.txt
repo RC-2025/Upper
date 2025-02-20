@@ -5,7 +5,7 @@ set(CXX_STANDARD_REQUIRED 17)
 set(CXX_STANDARD 17)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-    add_compile_options(-Wall -Wextra -std=gnu++17 -Wno-unused-but-set-variable -Wno-sign-compare -Wno-unused-variable -fopenmp -O3 -ftree-vectorize -funroll-loops -fPIE)
+    add_compile_options(-Wall -Wextra -std=c++17 -Wno-unused-but-set-variable -Wno-sign-compare -Wno-unused-variable -fopenmp -O3 -ftree-vectorize -funroll-loops -fPIE)
 endif()
 
 string(ASCII 27 Esc)
@@ -80,6 +80,8 @@ find_package(pcl_ros REQUIRED)
 find_package(pcl_msgs REQUIRED)
 find_package(Qhull REQUIRED)
 find_package(yaml-cpp REQUIRED)
+find_package(joy REQUIRED)
+find_package(diagnostic_updater REQUIRED)
 
 add_definitions(${PCL_DEFINITIONS})
 
@@ -126,6 +128,8 @@ set(dependencies
     pcl_msgs
     bondcpp
     yaml-cpp
+    joy
+    diagnostic_updater
 )
 
 add_executable(rc_interaction
