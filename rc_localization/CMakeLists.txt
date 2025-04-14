@@ -80,6 +80,7 @@ find_package(pcl_ros REQUIRED)
 find_package(pcl_msgs REQUIRED)
 find_package(Qhull REQUIRED)
 find_package(yaml-cpp REQUIRED)
+find_package(nav2_map_server REQUIRED)
 
 add_definitions(${PCL_DEFINITIONS})
 
@@ -97,12 +98,9 @@ set(dependencies
   sensor_msgs
   geometry_msgs
   OpenCV
-  cv_bridge
-  image_transport
   nav2_msgs
   nav2_util
   nav_msgs
-  pluginlib
   visualization_msgs
   tf2_ros
   tf2
@@ -111,10 +109,6 @@ set(dependencies
   action_tutorials_interfaces
   builtin_interfaces
   rosidl_runtime_cpp
-  camera_info_manager
-  class_loader
-  image_geometry
-  image_publisher
   magic_enum
   tf2_eigen
   tf2_msgs
@@ -125,6 +119,7 @@ set(dependencies
   rclcpp_lifecycle
   pcl_msgs
   bondcpp
+  nav2_map_server
   yaml-cpp
 )
 
