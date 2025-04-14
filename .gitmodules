@@ -1,3 +1,9 @@
 [submodule "als_ros2"]
 	path = als_ros2
 	url = https://github.com/illusionaryshelter/als_ros2.git
+[submodule "FAST-LIO-SAM-QN2"]
+	path = FAST-LIO-SAM-QN2
+	url = https://github.com/illusionaryshelter/FAST-LIO-SAM-QN2.git
+[submodule "FAST-LIO-Localization-SC-QN2"]
+	path = FAST-LIO-Localization-SC-QN2
+	url = https://github.com/illusionaryshelter/FAST-LIO-Localization-SC-QN2.git

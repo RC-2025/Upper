@@ -5,7 +5,7 @@ set(CXX_STANDARD_REQUIRED 17)
 set(CXX_STANDARD 17)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-    add_compile_options(-Wall -Wextra -std=c++17 -Wno-unused-but-set-variable -Wno-sign-compare -Wno-unused-variable -fopenmp -O3 -ftree-vectorize -funroll-loops -fPIE)
+    add_compile_options(-Wall -Wextra -std=c++17 -Wno-unused-but-set-variable -Wno-sign-compare -Wno-unused-variable -fopenmp -O3 -ftree-vectorize -funroll-loops)
 endif()
 
 string(ASCII 27 Esc)
@@ -99,13 +99,9 @@ set(dependencies
     sensor_msgs
     geometry_msgs
     OpenCV
-    cv_bridge
     image_transport
-    nav2_msgs
     nav2_util
     nav_msgs
-    pluginlib
-    visualization_msgs
     tf2_ros
     tf2
     std_srvs
@@ -113,10 +109,6 @@ set(dependencies
     action_tutorials_interfaces
     builtin_interfaces
     rosidl_runtime_cpp
-    camera_info_manager
-    class_loader
-    image_geometry
-    image_publisher
     magic_enum
     tf2_eigen
     tf2_msgs
@@ -132,20 +124,45 @@ set(dependencies
     diagnostic_updater
 )
 
-add_executable(rc_interaction
-    src/robot_interaction_node.cpp
+find_package(rosidl_default_generators REQUIRED)
+set(msg_files
+    "msg/Sbus.msg"
+    DEPENDENCIES std_msgs
 )
-ament_target_dependencies(rc_interaction ${dependencies})
-target_link_libraries(rc_interaction
+rosidl_generate_interfaces(${PROJECT_NAME}
+    ${msg_files}
+)
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} rosidl_typesupport_cpp)
+ament_export_dependencies(rosidl_default_runtime)
+
+add_executable(sbus_node
+    src/model_sbus.cpp
+)
+ament_target_dependencies(sbus_node ${dependencies})
+target_link_libraries(sbus_node
     ${OpenCV_LIBS}
     ${Qhull_LIBS}
     ${YAML_CPP_LIBRARIES}
     Eigen3::Eigen
     magic_enum::magic_enum
+    ${cpp_typesupport_target}
+)
+
+add_executable(xbox_node
+    src/model_xbox.cpp
+)
+ament_target_dependencies(xbox_node ${dependencies})
+target_link_libraries(xbox_node
+    ${OpenCV_LIBS}
+    ${Qhull_LIBS}
+    ${YAML_CPP_LIBRARIES}
+    Eigen3::Eigen
+    magic_enum::magic_enum
+    ${cpp_typesupport_target}
 )
 
 install(TARGETS
-    rc_interaction
+    xbox_node sbus_node
     DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -1,0 +1,17 @@
+sbus_node:
+    ros__parameters:
+        port: "/dev/tty11"
+        sbus_topic: "/sbus/sbus"
+        pose_topic: "/pose_stamped"  #from fastlio_localization_sc_qn
+        vel_topic: "/sbus/vel"
+        cmd_topic: "/sbus/cmd"
+        rx_min: 172
+        rx_max: 1811
+        out_min: 0
+        out_max: 255
+        deadband: 0
+        silent_failsafe: false
+        channel: 16
+        proportional_min: -1.0
+        proportional_max: -1.0
+        refresh_hz: 2

@@ -33,7 +33,7 @@
 #include <rc_interaction/basic_debugger.hpp>
 #include <rc_interaction/utils.hpp>
 namespace robot {
-class interaction_node : public rclcpp::Node {
+class xbox360_node : public rclcpp::Node {
 
 public:
   using JoyT = sensor_msgs::msg::Joy;
@@ -125,13 +125,13 @@ public:
     return;
   }
 
-  interaction_node() : Node("interaction_node"), ff_fd_(-1) {
+  xbox360_node() : Node("xbox360_node"), ff_fd_(-1) {
 
 // diagnostic_updater
 #ifdef _DIAGNOSTIC
     diagnostic_ = std::make_shared<diagnostic_updater::Updater>(this);
-    diagnostic_->add("interaction_node Driver Status", this,
-                     &interaction_node::diagnostics);
+    diagnostic_->add("xbox360_node Driver Status", this,
+                     &xbox360_node::diagnostics);
     diagnostic_->setHardwareID("none");
 #endif
 
@@ -144,11 +144,11 @@ public:
     rclcpp::Subscription<sensor_msgs::msg::JoyFeedbackArray>::SharedPtr sub_ =
         this->create_subscription<sensor_msgs::msg::JoyFeedbackArray>(
             "joy/set_feedback", rclcpp::QoS(10),
-            std::bind(&interaction_node::set_feedback, this,
+            std::bind(&xbox360_node::set_feedback, this,
                       std::placeholders::_1));
     pose_sub_ = this->create_subscription<PoseStampT>(
         "/mcl_pose", 10,
-        std::bind(&interaction_node::pose_feedback, this,
+        std::bind(&xbox360_node::pose_feedback, this,
                   std::placeholders::_1));
 
     joy_dev_ = this->declare_parameter("dev", std::string("/dev/input/js0"));
@@ -187,7 +187,7 @@ public:
 
     if (autorepeat_rate_ > 1 / coalesce_interval_) {
       RCLCPP_WARN(this->get_logger(),
-                  "interaction_node: autorepeat_rate (%f Hz) > "
+                  "xbox360_node: autorepeat_rate (%f Hz) > "
                   "1/coalesce_interval (%f Hz) does not make sense. Timing "
                   "behavior is not well defined.",
                   autorepeat_rate_, 1 / coalesce_interval_);
@@ -195,7 +195,7 @@ public:
 
     if (deadzone_ >= 1) {
       RCLCPP_WARN(this->get_logger(),
-                  "interaction_node: deadzone greater than 1 was requested. "
+                  "xbox360_node: deadzone greater than 1 was requested. "
                   "The semantics of deadzone have changed. It is now related "
                   "to the range [-1:1] instead "
                   "of [-32767:32767]. For now I am dividing your deadzone by "
@@ -207,14 +207,14 @@ public:
     if (deadzone_ > 0.9) {
       RCLCPP_WARN(
           this->get_logger(),
-          "interaction_node: deadzone (%f) greater than 0.9, setting it to 0.9",
+          "xbox360_node: deadzone (%f) greater than 0.9, setting it to 0.9",
           deadzone_);
       deadzone_ = 0.9;
     }
 
     if (deadzone_ < 0) {
       RCLCPP_WARN(this->get_logger(),
-                  "interaction_node: deadzone_ (%f) less than 0, setting to 0.",
+                  "xbox360_node: deadzone_ (%f) less than 0, setting to 0.",
                   deadzone_);
       deadzone_ = 0;
     }
@@ -222,7 +222,7 @@ public:
     if (autorepeat_rate_ < 0) {
       RCLCPP_WARN(
           this->get_logger(),
-          "interaction_node: autorepeat_rate (%f) less than 0, setting to 0.",
+          "xbox360_node: autorepeat_rate (%f) less than 0, setting to 0.",
           autorepeat_rate_);
       autorepeat_rate_ = 0;
     }
@@ -230,7 +230,7 @@ public:
     if (coalesce_interval_ < 0) {
       RCLCPP_WARN(
           this->get_logger(),
-          "interaction_node: coalesce_interval (%f) less than 0, setting to 0.",
+          "xbox360_node: coalesce_interval (%f) less than 0, setting to 0.",
           coalesce_interval_);
       coalesce_interval_ = 0;
     }
@@ -387,7 +387,7 @@ public:
 
         if (FD_ISSET(joy_fd, &set)) {
           if (read(joy_fd, &event, sizeof(js_event)) == -1 && errno != EAGAIN) {
-            break; // interaction_node is probably closed. Definitely occurs.
+            break; // xbox360_node is probably closed. Definitely occurs.
           }
 
           joy_msg->header.stamp = this->now();
@@ -460,7 +460,7 @@ public:
           default:
             RCLCPP_WARN(
                 this->get_logger(),
-                "interaction_node: Unknown event type. "
+                "xbox360_node: Unknown event type. "
                 "Please file a ticket. time=%u, value=%d, type=%Xh, number=%d",
                 event.time, event.value, event.type, event.number);
             break;
@@ -568,7 +568,7 @@ public:
     }
 
   cleanup:
-    RCLCPP_INFO(this->get_logger(), "interaction_node shut down.");
+    RCLCPP_INFO(this->get_logger(), "xbox360_node shut down.");
   }
 
 private:
@@ -611,7 +611,7 @@ private:
     if (open_) {
       stat.summary(0, "OK");
     } else {
-      stat.summary(2, "interaction_node not open.");
+      stat.summary(2, "xbox360_node not open.");
     }
 
     stat.add("topic", joy_pub_->get_topic_name());
