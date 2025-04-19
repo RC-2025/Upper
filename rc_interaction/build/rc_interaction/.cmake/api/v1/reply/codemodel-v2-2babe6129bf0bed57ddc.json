@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9e6fc786f2dfea57975e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "rc_interaction__py",
+					"jsonFile" : "directory-rc_interaction__py-0b17ee53cbf5b8dbc377.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/rc_interaction/rc_interaction__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rc_interaction",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rc_interaction_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rc_interaction_egg-8c626be7d15f58eab038.json",
+					"name" : "ament_cmake_python_build_rc_interaction_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rc_interaction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rc_interaction-8af2a750868aac8e7109.json",
+					"name" : "ament_cmake_python_copy_rc_interaction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction-c5ed13f7672b005f1db3.json",
+					"name" : "rc_interaction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__cpp-937f28f935fbbe873779.json",
+					"name" : "rc_interaction__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rc_interaction__py::@c9701c2e7cb1be50148e",
+					"jsonFile" : "target-rc_interaction__py-2410e0ea0bfdaff92fe4.json",
+					"name" : "rc_interaction__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_generator_c-022749bc0ebf91f5132e.json",
+					"name" : "rc_interaction__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_generator_py-d3da18e01370353b1e12.json",
+					"name" : "rc_interaction__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_c-106e387e3c9cf85149d6.json",
+					"name" : "rc_interaction__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_c__pyext-ee33dfc1cf671d85ae2a.json",
+					"name" : "rc_interaction__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_cpp-55892003249de675ac5a.json",
+					"name" : "rc_interaction__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_fastrtps_c-70108bf248d470f0b006.json",
+					"name" : "rc_interaction__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_fastrtps_c__pyext-00c6c7caafa04fb027d1.json",
+					"name" : "rc_interaction__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_fastrtps_cpp-0b77d508c41d5c36e08f.json",
+					"name" : "rc_interaction__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_introspection_c-a3e5f20a962d1d9c0137.json",
+					"name" : "rc_interaction__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_introspection_c__pyext-ed47f6873ad4996993ea.json",
+					"name" : "rc_interaction__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction__rosidl_typesupport_introspection_cpp-acbea55c5dcab8f4a5f1.json",
+					"name" : "rc_interaction__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_interaction_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_interaction_uninstall-076dd4ede1518d11e97f.json",
+					"name" : "rc_interaction_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sbus_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sbus_node-52b7baafb2b9ec391063.json",
+					"name" : "sbus_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6d8adb9dc8b9962d9a4d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xbox_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xbox_node-35ccc92ecb8f9059c23c.json",
+					"name" : "xbox_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zbt/Upper-main/rc_interaction/build/rc_interaction",
+		"source" : "/home/zbt/Upper-main/rc_interaction"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

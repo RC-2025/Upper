@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rc_interaction/msg/Sbus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module rc_interaction {
+  module msg {
+    typedef int16 int16__16[16];
+    struct Sbus {
+      std_msgs::msg::Header header;
+
+      int16__16 raw_channels;
+
+      int16__16 mapped_channels;
+
+      boolean failsafe;
+
+      boolean frame_lost;
+    };
+  };
+};

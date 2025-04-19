@@ -1,0 +1,2 @@
+Invoking command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zbt/Upper-main/rc_interaction -DCMAKE_INSTALL_PREFIX=/home/zbt/Upper-main/rc_interaction/install/rc_interaction
+Invoked command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zbt/Upper-main/rc_interaction -DCMAKE_INSTALL_PREFIX=/home/zbt/Upper-main/rc_interaction/install/rc_interaction

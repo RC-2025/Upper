@@ -1,0 +1,381 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (rc_interaction) JobQueued: {'identifier': 'rc_interaction', 'dependencies': OrderedDict()}
+[0.000176] (rc_interaction) JobStarted: {'identifier': 'rc_interaction'}
+[0.021047] (rc_interaction) JobProgress: {'identifier': 'rc_interaction', 'progress': 'cmake'}
+[0.024274] (rc_interaction) JobProgress: {'identifier': 'rc_interaction', 'progress': 'build'}
+[0.024324] (rc_interaction) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction', '--', '-j2', '-l2'], 'cwd': '/home/zbt/Upper-main/rc_interaction/build/rc_interaction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zbt'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zbt'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1118'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1278'), ('BUNDLED_DEBUGPY_PATH', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1893'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zbt'), ('JOURNAL_STREAM', '8:21002'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zbt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zbt/.local/bin:/opt/ros/humble/bin:/home/zbt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/zbt-virtual-machine:@/tmp/.ICE-unix/1252,unix/zbt-virtual-machine:/tmp/.ICE-unix/1252'), ('INVOCATION_ID', 'b8eff07f56e945ceb6e5d3cf40bd5605'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1cfe525be6e14ed6.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JZXD52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-77e13700e7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099446] (-) TimerEvent: {}
+[0.199797] (-) TimerEvent: {}
+[0.223397] (rc_interaction) StdoutLine: {'line': b'[  2%] Built target rc_interaction__cpp\n'}
+[0.229341] (rc_interaction) StdoutLine: {'line': b'[ 11%] Built target rc_interaction__rosidl_generator_c\n'}
+[0.263797] (rc_interaction) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_rc_interaction\n'}
+[0.265726] (rc_interaction) StdoutLine: {'line': b'[ 20%] Built target rc_interaction__rosidl_typesupport_cpp\n'}
+[0.289275] (rc_interaction) StdoutLine: {'line': b'[ 31%] Built target rc_interaction__rosidl_typesupport_fastrtps_c\n'}
+[0.289936] (rc_interaction) StdoutLine: {'line': b'[ 37%] Built target rc_interaction__rosidl_typesupport_fastrtps_cpp\n'}
+[0.301459] (-) TimerEvent: {}
+[0.319509] (rc_interaction) StdoutLine: {'line': b'[ 48%] Built target rc_interaction__rosidl_typesupport_c\n'}
+[0.319743] (rc_interaction) StdoutLine: {'line': b'[ 54%] Built target rc_interaction__rosidl_typesupport_introspection_c\n'}
+[0.349478] (rc_interaction) StdoutLine: {'line': b'[ 62%] Built target rc_interaction__rosidl_typesupport_introspection_cpp\n'}
+[0.401883] (-) TimerEvent: {}
+[0.439825] (rc_interaction) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/sbus_node.dir/src/model_sbus.cpp.o\x1b[0m\n'}
+[0.502274] (-) TimerEvent: {}
+[0.602786] (-) TimerEvent: {}
+[0.606121] (rc_interaction) StdoutLine: {'line': b'running egg_info\n'}
+[0.607402] (rc_interaction) StdoutLine: {'line': b'writing rc_interaction.egg-info/PKG-INFO\n'}
+[0.608234] (rc_interaction) StdoutLine: {'line': b'writing dependency_links to rc_interaction.egg-info/dependency_links.txt\n'}
+[0.608798] (rc_interaction) StdoutLine: {'line': b'writing top-level names to rc_interaction.egg-info/top_level.txt\n'}
+[0.612859] (rc_interaction) StdoutLine: {'line': b"reading manifest file 'rc_interaction.egg-info/SOURCES.txt'\n"}
+[0.613690] (rc_interaction) StdoutLine: {'line': b"writing manifest file 'rc_interaction.egg-info/SOURCES.txt'\n"}
+[0.647634] (rc_interaction) StdoutLine: {'line': b'[ 65%] Built target ament_cmake_python_build_rc_interaction_egg\n'}
+[0.700131] (rc_interaction) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/xbox_node.dir/src/model_xbox.cpp.o\x1b[0m\n'}
+[0.703395] (-) TimerEvent: {}
+[0.805679] (-) TimerEvent: {}
+[0.909845] (-) TimerEvent: {}
+[1.010280] (-) TimerEvent: {}
+[1.114088] (-) TimerEvent: {}
+[1.214573] (-) TimerEvent: {}
+[1.317452] (-) TimerEvent: {}
+[1.418025] (-) TimerEvent: {}
+[1.518841] (-) TimerEvent: {}
+[1.620552] (-) TimerEvent: {}
+[1.722574] (-) TimerEvent: {}
+[1.824553] (-) TimerEvent: {}
+[1.926033] (-) TimerEvent: {}
+[2.028195] (-) TimerEvent: {}
+[2.130205] (-) TimerEvent: {}
+[2.230685] (-) TimerEvent: {}
+[2.332907] (-) TimerEvent: {}
+[2.434780] (-) TimerEvent: {}
+[2.540247] (-) TimerEvent: {}
+[2.642065] (-) TimerEvent: {}
+[2.742854] (-) TimerEvent: {}
+[2.854982] (-) TimerEvent: {}
+[2.958642] (-) TimerEvent: {}
+[3.059065] (-) TimerEvent: {}
+[3.164566] (-) TimerEvent: {}
+[3.270857] (-) TimerEvent: {}
+[3.374193] (-) TimerEvent: {}
+[3.475878] (-) TimerEvent: {}
+[3.578036] (-) TimerEvent: {}
+[3.682942] (-) TimerEvent: {}
+[3.784562] (-) TimerEvent: {}
+[3.887084] (-) TimerEvent: {}
+[3.988877] (-) TimerEvent: {}
+[4.089638] (-) TimerEvent: {}
+[4.190200] (-) TimerEvent: {}
+[4.292916] (-) TimerEvent: {}
+[4.395611] (-) TimerEvent: {}
+[4.496629] (-) TimerEvent: {}
+[4.604706] (-) TimerEvent: {}
+[4.706050] (-) TimerEvent: {}
+[4.807201] (-) TimerEvent: {}
+[4.912926] (-) TimerEvent: {}
+[5.015166] (-) TimerEvent: {}
+[5.116121] (-) TimerEvent: {}
+[5.217227] (-) TimerEvent: {}
+[5.319584] (-) TimerEvent: {}
+[5.422866] (-) TimerEvent: {}
+[5.524904] (-) TimerEvent: {}
+[5.625607] (-) TimerEvent: {}
+[5.727364] (-) TimerEvent: {}
+[5.831472] (-) TimerEvent: {}
+[5.931813] (-) TimerEvent: {}
+[6.036100] (-) TimerEvent: {}
+[6.137424] (-) TimerEvent: {}
+[6.238997] (-) TimerEvent: {}
+[6.339510] (-) TimerEvent: {}
+[6.440246] (-) TimerEvent: {}
+[6.542157] (-) TimerEvent: {}
+[6.643616] (-) TimerEvent: {}
+[6.744447] (-) TimerEvent: {}
+[6.849907] (-) TimerEvent: {}
+[6.950394] (-) TimerEvent: {}
+[7.055818] (-) TimerEvent: {}
+[7.165815] (-) TimerEvent: {}
+[7.266709] (-) TimerEvent: {}
+[7.367871] (-) TimerEvent: {}
+[7.468301] (-) TimerEvent: {}
+[7.572681] (-) TimerEvent: {}
+[7.673048] (-) TimerEvent: {}
+[7.774197] (-) TimerEvent: {}
+[7.878516] (-) TimerEvent: {}
+[7.979659] (-) TimerEvent: {}
+[8.080808] (-) TimerEvent: {}
+[8.182475] (-) TimerEvent: {}
+[8.282929] (-) TimerEvent: {}
+[8.387497] (-) TimerEvent: {}
+[8.488462] (-) TimerEvent: {}
+[8.591562] (-) TimerEvent: {}
+[8.696789] (-) TimerEvent: {}
+[8.798104] (-) TimerEvent: {}
+[8.898569] (-) TimerEvent: {}
+[8.999028] (-) TimerEvent: {}
+[9.109767] (-) TimerEvent: {}
+[9.211730] (-) TimerEvent: {}
+[9.314503] (-) TimerEvent: {}
+[9.416788] (-) TimerEvent: {}
+[9.517094] (-) TimerEvent: {}
+[9.618047] (-) TimerEvent: {}
+[9.718667] (-) TimerEvent: {}
+[9.820311] (-) TimerEvent: {}
+[9.921876] (-) TimerEvent: {}
+[10.025548] (-) TimerEvent: {}
+[10.126027] (-) TimerEvent: {}
+[10.227001] (-) TimerEvent: {}
+[10.328715] (-) TimerEvent: {}
+[10.429746] (-) TimerEvent: {}
+[10.530504] (-) TimerEvent: {}
+[10.631952] (-) TimerEvent: {}
+[10.736253] (-) TimerEvent: {}
+[10.837270] (-) TimerEvent: {}
+[10.938278] (-) TimerEvent: {}
+[11.041221] (-) TimerEvent: {}
+[11.141824] (-) TimerEvent: {}
+[11.243293] (-) TimerEvent: {}
+[11.343973] (-) TimerEvent: {}
+[11.444722] (-) TimerEvent: {}
+[11.555396] (-) TimerEvent: {}
+[11.657097] (-) TimerEvent: {}
+[11.758439] (-) TimerEvent: {}
+[11.859588] (-) TimerEvent: {}
+[11.960522] (-) TimerEvent: {}
+[12.061658] (-) TimerEvent: {}
+[12.174626] (-) TimerEvent: {}
+[12.276670] (-) TimerEvent: {}
+[12.378220] (-) TimerEvent: {}
+[12.479651] (-) TimerEvent: {}
+[12.581266] (-) TimerEvent: {}
+[12.682102] (-) TimerEvent: {}
+[12.786693] (-) TimerEvent: {}
+[12.888253] (-) TimerEvent: {}
+[12.989180] (-) TimerEvent: {}
+[13.090012] (-) TimerEvent: {}
+[13.192121] (-) TimerEvent: {}
+[13.294275] (-) TimerEvent: {}
+[13.396354] (-) TimerEvent: {}
+[13.496836] (-) TimerEvent: {}
+[13.598002] (-) TimerEvent: {}
+[13.698760] (-) TimerEvent: {}
+[13.799540] (-) TimerEvent: {}
+[13.902763] (-) TimerEvent: {}
+[14.004633] (-) TimerEvent: {}
+[14.106581] (-) TimerEvent: {}
+[14.207838] (-) TimerEvent: {}
+[14.308815] (-) TimerEvent: {}
+[14.410228] (-) TimerEvent: {}
+[14.511262] (-) TimerEvent: {}
+[14.613394] (-) TimerEvent: {}
+[14.714266] (-) TimerEvent: {}
+[14.815707] (-) TimerEvent: {}
+[14.921684] (-) TimerEvent: {}
+[15.022968] (-) TimerEvent: {}
+[15.123807] (-) TimerEvent: {}
+[15.224429] (-) TimerEvent: {}
+[15.325160] (-) TimerEvent: {}
+[15.425551] (-) TimerEvent: {}
+[15.526667] (-) TimerEvent: {}
+[15.627548] (-) TimerEvent: {}
+[15.731597] (-) TimerEvent: {}
+[15.837254] (-) TimerEvent: {}
+[15.937702] (-) TimerEvent: {}
+[16.038200] (-) TimerEvent: {}
+[16.139499] (-) TimerEvent: {}
+[16.240015] (-) TimerEvent: {}
+[16.341780] (-) TimerEvent: {}
+[16.443637] (-) TimerEvent: {}
+[16.545775] (-) TimerEvent: {}
+[16.647758] (-) TimerEvent: {}
+[16.748787] (-) TimerEvent: {}
+[16.849360] (-) TimerEvent: {}
+[16.954449] (-) TimerEvent: {}
+[17.056289] (-) TimerEvent: {}
+[17.159193] (-) TimerEvent: {}
+[17.259530] (-) TimerEvent: {}
+[17.361211] (-) TimerEvent: {}
+[17.462126] (-) TimerEvent: {}
+[17.566541] (-) TimerEvent: {}
+[17.668525] (-) TimerEvent: {}
+[17.769044] (-) TimerEvent: {}
+[17.871627] (-) TimerEvent: {}
+[17.972831] (-) TimerEvent: {}
+[18.074878] (-) TimerEvent: {}
+[18.175898] (-) TimerEvent: {}
+[18.277075] (-) TimerEvent: {}
+[18.379325] (-) TimerEvent: {}
+[18.481690] (-) TimerEvent: {}
+[18.582343] (-) TimerEvent: {}
+[18.690078] (rc_interaction) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable sbus_node\x1b[0m\n'}
+[18.702172] (-) TimerEvent: {}
+[18.802710] (-) TimerEvent: {}
+[18.904029] (-) TimerEvent: {}
+[19.004506] (-) TimerEvent: {}
+[19.105065] (-) TimerEvent: {}
+[19.208348] (-) TimerEvent: {}
+[19.309032] (-) TimerEvent: {}
+[19.409598] (-) TimerEvent: {}
+[19.510664] (-) TimerEvent: {}
+[19.611203] (-) TimerEvent: {}
+[19.711758] (-) TimerEvent: {}
+[19.812087] (-) TimerEvent: {}
+[19.913372] (-) TimerEvent: {}
+[20.014947] (-) TimerEvent: {}
+[20.048479] (rc_interaction) StdoutLine: {'line': b'[ 71%] Built target sbus_node\n'}
+[20.115282] (-) TimerEvent: {}
+[20.127579] (rc_interaction) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable xbox_node\x1b[0m\n'}
+[20.216710] (-) TimerEvent: {}
+[20.317417] (-) TimerEvent: {}
+[20.420134] (-) TimerEvent: {}
+[20.521496] (-) TimerEvent: {}
+[20.587257] (rc_interaction) StdoutLine: {'line': b'[ 74%] Built target xbox_node\n'}
+[20.613105] (rc_interaction) StdoutLine: {'line': b'[ 74%] Built target rc_interaction\n'}
+[20.621820] (-) TimerEvent: {}
+[20.638642] (rc_interaction) StdoutLine: {'line': b'[ 77%] Built target rc_interaction__py\n'}
+[20.666388] (rc_interaction) StdoutLine: {'line': b'[ 82%] Built target rc_interaction__rosidl_generator_py\n'}
+[20.689507] (rc_interaction) StdoutLine: {'line': b'[ 88%] Built target rc_interaction__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.712942] (rc_interaction) StdoutLine: {'line': b'[ 94%] Built target rc_interaction__rosidl_typesupport_introspection_c__pyext\n'}
+[20.722347] (-) TimerEvent: {}
+[20.732072] (rc_interaction) StdoutLine: {'line': b'[100%] Built target rc_interaction__rosidl_typesupport_c__pyext\n'}
+[20.795990] (rc_interaction) CommandEnded: {'returncode': 0}
+[20.823132] (rc_interaction) JobProgress: {'identifier': 'rc_interaction', 'progress': 'install'}
+[20.825956] (-) TimerEvent: {}
+[20.846496] (rc_interaction) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction'], 'cwd': '/home/zbt/Upper-main/rc_interaction/build/rc_interaction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zbt'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zbt'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1118'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1278'), ('BUNDLED_DEBUGPY_PATH', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1893'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zbt'), ('JOURNAL_STREAM', '8:21002'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zbt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zbt/.local/bin:/opt/ros/humble/bin:/home/zbt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/zbt-virtual-machine:@/tmp/.ICE-unix/1252,unix/zbt-virtual-machine:/tmp/.ICE-unix/1252'), ('INVOCATION_ID', 'b8eff07f56e945ceb6e5d3cf40bd5605'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1cfe525be6e14ed6.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JZXD52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-77e13700e7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.860380] (rc_interaction) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.863487] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/rosidl_interfaces/rc_interaction\n'}
+[20.863787] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction\n'}
+[20.864405] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg\n'}
+[20.864499] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/sbus.h\n'}
+[20.864556] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail\n'}
+[20.864625] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.h\n'}
+[20.864689] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__struct.h\n'}
+[20.865555] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__functions.h\n'}
+[20.865638] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__functions.c\n'}
+[20.865696] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.866826] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/library_path.sh\n'}
+[20.866947] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/library_path.dsv\n'}
+[20.869458] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_generator_c.so\n'}
+[20.869881] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction\n'}
+[20.870903] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg\n'}
+[20.870964] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.870999] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail\n'}
+[20.871030] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_fastrtps_c.h\n'}
+[20.872135] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_fastrtps_c.so\n'}
+[20.872262] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction\n'}
+[20.872320] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg\n'}
+[20.873299] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.873398] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail\n'}
+[20.873645] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__traits.hpp\n'}
+[20.873687] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.hpp\n'}
+[20.873743] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__struct.hpp\n'}
+[20.873770] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__builder.hpp\n'}
+[20.873796] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/sbus.hpp\n'}
+[20.873865] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction\n'}
+[20.873895] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg\n'}
+[20.874015] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.874073] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail\n'}
+[20.874131] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.874165] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/dds_fastrtps\n'}
+[20.875958] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.876058] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction\n'}
+[20.876151] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg\n'}
+[20.876217] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail\n'}
+[20.876332] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_introspection_c.h\n'}
+[20.876397] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.c\n'}
+[20.876430] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.877923] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_introspection_c.so\n'}
+[20.878734] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_c.so\n'}
+[20.878923] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction\n'}
+[20.878971] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg\n'}
+[20.879530] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail\n'}
+[20.879709] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.879823] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.cpp\n'}
+[20.882667] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_introspection_cpp.so\n'}
+[20.883330] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_cpp.so\n'}
+[20.883433] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/pythonpath.sh\n'}
+[20.883489] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/pythonpath.dsv\n'}
+[20.883550] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info\n'}
+[20.884480] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[20.886008] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[20.886096] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[20.886277] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[20.887287] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction\n'}
+[20.887991] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.888565] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/_rc_interaction_s.ep.rosidl_typesupport_c.c\n'}
+[20.888616] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/_rc_interaction_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.888651] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/librc_interaction__rosidl_generator_py.so\n'}
+[20.888679] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/_rc_interaction_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.888705] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.888736] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.888765] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/__init__.py\n'}
+[20.888790] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg\n'}
+[20.888814] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg/_sbus_s.c\n'}
+[20.888839] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg/_sbus.py\n'}
+[20.888863] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg/__init__.py\n'}
+[20.922898] (rc_interaction) StdoutLine: {'line': b"Listing '/home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction'...\n"}
+[20.923107] (rc_interaction) StdoutLine: {'line': b"Listing '/home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg'...\n"}
+[20.925630] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.926075] (-) TimerEvent: {}
+[20.926909] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.927796] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.928283] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_generator_py.so\n'}
+[20.928856] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/msg/Sbus.idl\n'}
+[20.929049] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/msg/Sbus.msg\n'}
+[20.930845] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/rc_interaction/xbox_node\n'}
+[20.933627] (rc_interaction) StdoutLine: {'line': b'-- Set runtime path of "/home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/rc_interaction/xbox_node" to ""\n'}
+[20.934784] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/rc_interaction/sbus_node\n'}
+[20.936198] (rc_interaction) StdoutLine: {'line': b'-- Set runtime path of "/home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/rc_interaction/sbus_node" to ""\n'}
+[20.936260] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/launch\n'}
+[20.936744] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/launch/run.launch.py\n'}
+[20.937026] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/config\n'}
+[20.938363] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/config/xbox.yaml\n'}
+[20.938421] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/config/sbus.yaml\n'}
+[20.938814] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include\n'}
+[20.938998] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction\n'}
+[20.939265] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/protocols\n'}
+[20.939637] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/protocols/sbus_serial.hpp\n'}
+[20.939708] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/basic_debugger.hpp\n'}
+[20.941327] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/utils.hpp\n'}
+[20.941392] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/sbus_node.hpp\n'}
+[20.941557] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/xbox360_node.hpp\n'}
+[20.941839] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/package_run_dependencies/rc_interaction\n'}
+[20.942470] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/parent_prefix_path/rc_interaction\n'}
+[20.942822] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/ament_prefix_path.sh\n'}
+[20.943025] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/ament_prefix_path.dsv\n'}
+[20.943162] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/path.sh\n'}
+[20.943303] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/path.dsv\n'}
+[20.943650] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.bash\n'}
+[20.943774] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.sh\n'}
+[20.943927] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.zsh\n'}
+[20.944059] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.dsv\n'}
+[20.944206] (rc_interaction) StdoutLine: {'line': b'-- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/package.dsv\n'}
+[20.945414] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/packages/rc_interaction\n'}
+[20.946864] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_cExport.cmake\n'}
+[20.947020] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.948331] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.948574] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.949397] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_cppExport.cmake\n'}
+[20.950379] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.950436] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.950838] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.951090] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.951683] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cExport.cmake\n'}
+[20.952171] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.952881] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.953367] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.954267] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cppExport.cmake\n'}
+[20.954683] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.955494] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_pyExport.cmake\n'}
+[20.955562] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.956650] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rosidl_cmake-extras.cmake\n'}
+[20.958794] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.958857] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.958896] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.958927] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.958955] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.959006] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.959036] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interactionConfig.cmake\n'}
+[20.959062] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interactionConfig-version.cmake\n'}
+[20.959088] (rc_interaction) StdoutLine: {'line': b'-- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/package.xml\n'}
+[20.970269] (rc_interaction) CommandEnded: {'returncode': 0}
+[21.027196] (-) TimerEvent: {}
+[21.056563] (rc_interaction) JobEnded: {'identifier': 'rc_interaction', 'rc': 0}
+[21.062160] (-) EventReactorShutdown: {}

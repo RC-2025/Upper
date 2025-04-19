@@ -1,0 +1,168 @@
+[0.015s] Invoking command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zbt/Upper-main/rc_interaction/build/rc_interaction -- -j2 -l2
+[0.121s] [  8%] Built target rc_interaction__rosidl_generator_c
+[0.125s] [ 11%] Built target rc_interaction__cpp
+[0.165s] [ 20%] Built target rc_interaction__rosidl_typesupport_cpp
+[0.167s] [ 20%] Built target ament_cmake_python_copy_rc_interaction
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target rc_interaction__rosidl_typesupport_fastrtps_c[0m
+[0.189s] [ 28%] Built target rc_interaction__rosidl_typesupport_fastrtps_c
+[0.193s] [ 37%] Built target rc_interaction__rosidl_typesupport_fastrtps_cpp
+[0.210s] [ 45%] Built target rc_interaction__rosidl_typesupport_introspection_c
+[0.210s] [ 54%] Built target rc_interaction__rosidl_typesupport_c
+[0.246s] [ 62%] Built target rc_interaction__rosidl_typesupport_introspection_cpp
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target sbus_node[0m
+[0.321s] [ 68%] Built target sbus_node
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target xbox_node[0m
+[0.383s] [ 74%] Built target xbox_node
+[0.395s] running egg_info
+[0.395s] writing rc_interaction.egg-info/PKG-INFO
+[0.397s] writing dependency_links to rc_interaction.egg-info/dependency_links.txt
+[0.398s] writing top-level names to rc_interaction.egg-info/top_level.txt
+[0.400s] reading manifest file 'rc_interaction.egg-info/SOURCES.txt'
+[0.402s] writing manifest file 'rc_interaction.egg-info/SOURCES.txt'
+[0.404s] [ 74%] Built target rc_interaction
+[0.435s] [ 74%] Built target ament_cmake_python_build_rc_interaction_egg
+[0.436s] [ 77%] Built target rc_interaction__py
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target rc_interaction__rosidl_generator_py[0m
+[0.456s] [ 82%] Built target rc_interaction__rosidl_generator_py
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target rc_interaction__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.469s] [35m[1mConsolidate compiler generated dependencies of target rc_interaction__rosidl_typesupport_introspection_c__pyext[0m
+[0.480s] [ 88%] Built target rc_interaction__rosidl_typesupport_introspection_c__pyext
+[0.484s] [ 94%] Built target rc_interaction__rosidl_typesupport_fastrtps_c__pyext
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target rc_interaction__rosidl_typesupport_c__pyext[0m
+[0.499s] [100%] Built target rc_interaction__rosidl_typesupport_c__pyext
+[0.512s] Invoked command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zbt/Upper-main/rc_interaction/build/rc_interaction -- -j2 -l2
+[0.520s] Invoking command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zbt/Upper-main/rc_interaction/build/rc_interaction
+[0.527s] -- Install configuration: ""
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/rosidl_interfaces/rc_interaction
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/sbus.h
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.h
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__struct.h
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__functions.h
+[0.527s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__functions.c
+[0.528s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_generator_c__visibility_control.h
+[0.528s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/library_path.sh
+[0.528s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/library_path.dsv
+[0.531s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_generator_c.so
+[0.532s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction
+[0.532s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg
+[0.532s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.532s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail
+[0.532s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_fastrtps_c.h
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_fastrtps_c.so
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__traits.hpp
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.hpp
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__struct.hpp
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__builder.hpp
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/sbus.hpp
+[0.533s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_fastrtps_cpp.hpp
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/dds_fastrtps
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_fastrtps_cpp.so
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_introspection_c.h
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.c
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_introspection_c.so
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_c.so
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__rosidl_typesupport_introspection_cpp.hpp
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/include/rc_interaction/rc_interaction/msg/detail/sbus__type_support.cpp
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_introspection_cpp.so
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_typesupport_cpp.so
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/pythonpath.sh
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/pythonpath.dsv
+[0.534s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info
+[0.534s] -- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.534s] -- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/top_level.txt
+[0.534s] -- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.536s] -- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction-0.0.1-py3.10.egg-info/PKG-INFO
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/_rc_interaction_s.ep.rosidl_typesupport_c.c
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/_rc_interaction_s.ep.rosidl_typesupport_introspection_c.c
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/librc_interaction__rosidl_generator_py.so
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/_rc_interaction_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/__init__.py
+[0.536s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg
+[0.537s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg/_sbus_s.c
+[0.537s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg/_sbus.py
+[0.537s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg/__init__.py
+[0.569s] Listing '/home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction'...
+[0.569s] Listing '/home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/msg'...
+[0.574s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.574s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.575s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/local/lib/python3.10/dist-packages/rc_interaction/rc_interaction_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.575s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/librc_interaction__rosidl_generator_py.so
+[0.575s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/msg/Sbus.idl
+[0.576s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/msg/Sbus.msg
+[0.576s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/rc_interaction/xbox_node
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/lib/rc_interaction/sbus_node
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/launch
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/launch/run.launch.py
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/config
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/config/xbox.yaml
+[0.577s] -- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/config/sbus.yaml
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include
+[0.577s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/protocols
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/protocols/sbus_serial.hpp
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/basic_debugger.hpp
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/utils.hpp
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/sbus_node.hpp
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/include/rc_interaction/xbox360_node.hpp
+[0.578s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/package_run_dependencies/rc_interaction
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/parent_prefix_path/rc_interaction
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/ament_prefix_path.sh
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/ament_prefix_path.dsv
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/path.sh
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/environment/path.dsv
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.bash
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.sh
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.zsh
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/local_setup.dsv
+[0.580s] -- Installing: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/package.dsv
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/ament_index/resource_index/packages/rc_interaction
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_cExport.cmake
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_cExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cExport.cmake
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_cppExport.cmake
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.580s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cExport.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cExport.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cppExport.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cppExport.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interaction__rosidl_typesupport_cppExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_pyExport.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/export_rc_interaction__rosidl_generator_pyExport-noconfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rosidl_cmake-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_libraries-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/ament_cmake_export_targets-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interactionConfig.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/cmake/rc_interactionConfig-version.cmake
+[0.581s] -- Up-to-date: /home/zbt/Upper-main/rc_interaction/install/rc_interaction/share/rc_interaction/package.xml
+[0.585s] Invoked command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zbt/Upper-main/rc_interaction/build/rc_interaction

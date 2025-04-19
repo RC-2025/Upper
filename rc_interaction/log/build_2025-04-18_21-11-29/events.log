@@ -1,0 +1,442 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (rc_interaction) JobQueued: {'identifier': 'rc_interaction', 'dependencies': OrderedDict()}
+[0.000596] (rc_interaction) JobStarted: {'identifier': 'rc_interaction'}
+[0.007136] (rc_interaction) JobProgress: {'identifier': 'rc_interaction', 'progress': 'cmake'}
+[0.007723] (rc_interaction) Command: {'cmd': ['/usr/bin/cmake', '/home/zbt/Upper-main/rc_interaction', '-DCMAKE_INSTALL_PREFIX=/home/zbt/Upper-main/rc_interaction/install/rc_interaction'], 'cwd': '/home/zbt/Upper-main/rc_interaction/build/rc_interaction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zbt'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zbt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zbt/Upper-main'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1100'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1310'), ('BUNDLED_DEBUGPY_PATH', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2096'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zbt/Upper-main/rc_interaction/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zbt'), ('JOURNAL_STREAM', '8:20807'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zbt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zbt/.local/bin:/opt/ros/humble/bin:/home/zbt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/zbt-virtual-machine:@/tmp/.ICE-unix/1278,unix/zbt-virtual-machine:/tmp/.ICE-unix/1278'), ('INVOCATION_ID', '342c9dae26e241c0aaeda53f072502c8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1cfe525be6e14ed6.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JK2742'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-77e13700e7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099643] (-) TimerEvent: {}
+[0.104495] (rc_interaction) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.171953] (rc_interaction) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.179833] (rc_interaction) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.201155] (-) TimerEvent: {}
+[0.246649] (rc_interaction) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.248974] (rc_interaction) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.249363] (rc_interaction) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.249760] (rc_interaction) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.252100] (rc_interaction) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.304363] (-) TimerEvent: {}
+[0.317373] (rc_interaction) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.324995] (rc_interaction) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.325101] (rc_interaction) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.325138] (rc_interaction) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.325314] (rc_interaction) StderrLine: {'line': b'\x1b[0m\x1b[1;34mselect arch with x86_64\x1b[0m\n'}
+[0.404660] (-) TimerEvent: {}
+[0.507760] (-) TimerEvent: {}
+[0.537013] (rc_interaction) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[0.608031] (-) TimerEvent: {}
+[0.608621] (rc_interaction) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[0.608745] (rc_interaction) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[0.609832] (rc_interaction) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[0.673337] (rc_interaction) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[0.677032] (rc_interaction) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.708100] (-) TimerEvent: {}
+[0.738859] (rc_interaction) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.739019] (rc_interaction) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.795182] (rc_interaction) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.795725] (rc_interaction) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.808598] (-) TimerEvent: {}
+[0.828828] (rc_interaction) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[0.890978] (rc_interaction) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[0.891149] (rc_interaction) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[0.896971] (rc_interaction) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.909089] (-) TimerEvent: {}
+[1.000580] (rc_interaction) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.009267] (-) TimerEvent: {}
+[1.070603] (rc_interaction) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.105715] (rc_interaction) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.108875] (rc_interaction) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.109454] (-) TimerEvent: {}
+[1.115130] (rc_interaction) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.131475] (rc_interaction) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.146408] (rc_interaction) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.189783] (rc_interaction) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.191651] (rc_interaction) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.209723] (-) TimerEvent: {}
+[1.283732] (rc_interaction) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.308925] (rc_interaction) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/share  \n'}
+[1.309853] (-) TimerEvent: {}
+[1.357021] (rc_interaction) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.410123] (-) TimerEvent: {}
+[1.419009] (rc_interaction) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.458099] (rc_interaction) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.471206] (rc_interaction) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.473862] (rc_interaction) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.505388] (rc_interaction) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.510406] (-) TimerEvent: {}
+[1.519372] (rc_interaction) StdoutLine: {'line': b'-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.541146] (rc_interaction) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.544703] (rc_interaction) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.606663] (rc_interaction) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.610495] (-) TimerEvent: {}
+[1.615334] (rc_interaction) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.637870] (rc_interaction) StdoutLine: {'line': b'-- Found bondcpp: 4.1.2 (/opt/ros/humble/share/bondcpp/cmake)\n'}
+[1.654950] (rc_interaction) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.673159] (rc_interaction) StdoutLine: {'line': b'-- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[1.689892] (rc_interaction) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.690985] (rc_interaction) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.691419] (rc_interaction) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.696662] (rc_interaction) StdoutLine: {'line': b'-- Found action_tutorials_interfaces: 0.20.5 (/opt/ros/humble/share/action_tutorials_interfaces/cmake)\n'}
+[1.707823] (rc_interaction) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.11 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[1.710947] (-) TimerEvent: {}
+[1.726601] (rc_interaction) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[1.730185] (rc_interaction) StdoutLine: {'line': b'-- Found image_publisher: 3.0.7 (/opt/ros/humble/share/image_publisher/cmake)\n'}
+[1.742826] (rc_interaction) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[1.745345] (rc_interaction) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.12 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[1.767599] (rc_interaction) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.776834] (rc_interaction) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.805443] (rc_interaction) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.805795] (rc_interaction) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.812528] (-) TimerEvent: {}
+[1.882555] (rc_interaction) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.912700] (-) TimerEvent: {}
+[1.937300] (rc_interaction) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.952567] (rc_interaction) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.978381] (rc_interaction) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.979152] (rc_interaction) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.979545] (rc_interaction) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.012816] (-) TimerEvent: {}
+[2.023028] (rc_interaction) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.023359] (rc_interaction) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.023462] (rc_interaction) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.023805] (rc_interaction) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[2.052708] (rc_interaction) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[2.058087] (rc_interaction) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[2.112890] (-) TimerEvent: {}
+[2.194384] (rc_interaction) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[2.194532] (rc_interaction) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[2.195458] (rc_interaction) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[2.203855] (rc_interaction) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.213108] (-) TimerEvent: {}
+[2.215259] (rc_interaction) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[2.236198] (rc_interaction) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[2.309047] (rc_interaction) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.309589] (rc_interaction) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.313412] (-) TimerEvent: {}
+[2.380978] (rc_interaction) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.381315] (rc_interaction) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.414115] (-) TimerEvent: {}
+[2.434059] (rc_interaction) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.434366] (rc_interaction) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.491476] (rc_interaction) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.491619] (rc_interaction) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.514575] (-) TimerEvent: {}
+[2.547220] (rc_interaction) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.547368] (rc_interaction) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.600757] (rc_interaction) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.600901] (rc_interaction) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.615859] (-) TimerEvent: {}
+[2.667854] (rc_interaction) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.716345] (-) TimerEvent: {}
+[2.732998] (rc_interaction) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[2.734319] (rc_interaction) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[2.736268] (rc_interaction) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[2.737912] (rc_interaction) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[2.762381] (rc_interaction) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[2.766585] (rc_interaction) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[2.769790] (rc_interaction) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.773577] (rc_interaction) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.797112] (rc_interaction) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.815687] (rc_interaction) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.817202] (-) TimerEvent: {}
+[2.830873] (rc_interaction) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.868839] (rc_interaction) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.870436] (rc_interaction) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.874795] (rc_interaction) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.880884] (rc_interaction) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.917364] (-) TimerEvent: {}
+[3.018416] (-) TimerEvent: {}
+[3.119003] (-) TimerEvent: {}
+[3.175787] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.176425] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.176485] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.176915] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.176963] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.177167] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.177327] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.177872] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.178150] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.178190] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.178218] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.178777] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.178821] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.179255] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.179466] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.179874] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.180158] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.180211] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.180685] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.180965] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.181016] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.181441] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.181833] (rc_interaction) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.182388] (rc_interaction) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.182915] (rc_interaction) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_visualization;pcl_filters;pcl_features;pcl_keypoints;pcl_sample_consensus;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN  \n'}
+[3.183674] (rc_interaction) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.200492] (rc_interaction) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[3.217826] (rc_interaction) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.218912] (rc_interaction) StdoutLine: {'line': b'-- Found joy: 3.3.0 (/opt/ros/humble/share/joy/cmake)\n'}
+[3.219056] (-) TimerEvent: {}
+[3.235029] (rc_interaction) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[3.252309] (rc_interaction) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.320090] (-) TimerEvent: {}
+[3.421570] (-) TimerEvent: {}
+[3.433981] (rc_interaction) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.523273] (-) TimerEvent: {}
+[3.623931] (-) TimerEvent: {}
+[3.685504] (rc_interaction) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.725284] (-) TimerEvent: {}
+[3.776422] (rc_interaction) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.792566] (rc_interaction) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.793597] (rc_interaction) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.809659] (rc_interaction) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.809936] (rc_interaction) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.810022] (rc_interaction) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.810069] (rc_interaction) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.823517] (rc_interaction) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.825519] (-) TimerEvent: {}
+[3.917581] (rc_interaction) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.925882] (-) TimerEvent: {}
+[3.944960] (rc_interaction) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.947664] (rc_interaction) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zbt/Upper-main/rc_interaction/include;$<BUILD_INTERFACE:/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_generator_c>;$<BUILD_INTERFACE:/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_typesupport_introspection_cpp>;/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_generator_c;/home/zbt/Upper-main/rc_interaction/build/rc_interaction/rosidl_generator_py\n'}
+[3.947947] (rc_interaction) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.950713] (rc_interaction) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.955171] (rc_interaction) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.957293] (rc_interaction) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.970204] (rc_interaction) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.970331] (rc_interaction) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.972190] (rc_interaction) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.978357] (rc_interaction) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.026043] (-) TimerEvent: {}
+[4.122031] (rc_interaction) StdoutLine: {'line': b'-- Generating done\n'}
+[4.127119] (-) TimerEvent: {}
+[4.136826] (rc_interaction) StdoutLine: {'line': b'-- Build files have been written to: /home/zbt/Upper-main/rc_interaction/build/rc_interaction\n'}
+[4.155289] (rc_interaction) CommandEnded: {'returncode': 0}
+[4.156768] (rc_interaction) JobProgress: {'identifier': 'rc_interaction', 'progress': 'build'}
+[4.156784] (rc_interaction) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction', '--', '-j2', '-l2'], 'cwd': '/home/zbt/Upper-main/rc_interaction/build/rc_interaction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zbt'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zbt'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/zbt/Upper-main'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1100'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1310'), ('BUNDLED_DEBUGPY_PATH', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2096'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/zbt/Upper-main/rc_interaction/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zbt'), ('JOURNAL_STREAM', '8:20807'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zbt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zbt/.local/bin:/opt/ros/humble/bin:/home/zbt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/zbt-virtual-machine:@/tmp/.ICE-unix/1278,unix/zbt-virtual-machine:/tmp/.ICE-unix/1278'), ('INVOCATION_ID', '342c9dae26e241c0aaeda53f072502c8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zbt/.vscode/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1cfe525be6e14ed6.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JK2742'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-77e13700e7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zbt/Upper-main/rc_interaction/build/rc_interaction'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.199026] (rc_interaction) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.203376] (rc_interaction) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.227315] (-) TimerEvent: {}
+[4.328248] (-) TimerEvent: {}
+[4.403921] (rc_interaction) StdoutLine: {'line': b'[  5%] Built target rc_interaction__cpp\n'}
+[4.404344] (rc_interaction) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/rc_interaction__rosidl_generator_c.dir/rosidl_generator_c/rc_interaction/msg/detail/sbus__functions.c.o\x1b[0m\n'}
+[4.423927] (rc_interaction) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_rc_interaction\n'}
+[4.428500] (-) TimerEvent: {}
+[4.431428] (rc_interaction) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.466185] (rc_interaction) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library librc_interaction__rosidl_generator_c.so\x1b[0m\n'}
+[4.503531] (rc_interaction) StdoutLine: {'line': b'[ 14%] Built target rc_interaction__rosidl_generator_c\n'}
+[4.510827] (rc_interaction) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.530528] (-) TimerEvent: {}
+[4.588678] (rc_interaction) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rc_interaction__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rc_interaction/msg/sbus__type_support.cpp.o\x1b[0m\n'}
+[4.631748] (-) TimerEvent: {}
+[4.693822] (rc_interaction) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rc_interaction__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rc_interaction/msg/detail/dds_fastrtps/sbus__type_support.cpp.o\x1b[0m\n'}
+[4.732023] (-) TimerEvent: {}
+[4.804027] (rc_interaction) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library librc_interaction__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.832648] (-) TimerEvent: {}
+[4.838518] (rc_interaction) StdoutLine: {'line': b'[ 25%] Built target rc_interaction__rosidl_typesupport_cpp\n'}
+[4.853294] (rc_interaction) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.936119] (-) TimerEvent: {}
+[5.030841] (rc_interaction) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/rc_interaction__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rc_interaction/msg/detail/sbus__type_support.c.o\x1b[0m\n'}
+[5.037834] (-) TimerEvent: {}
+[5.077465] (rc_interaction) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C shared library librc_interaction__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.088330] (rc_interaction) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library librc_interaction__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.106628] (rc_interaction) StdoutLine: {'line': b'[ 37%] Built target rc_interaction__rosidl_typesupport_introspection_c\n'}
+[5.114723] (rc_interaction) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.138348] (-) TimerEvent: {}
+[5.149149] (rc_interaction) StdoutLine: {'line': b'[ 40%] Built target rc_interaction__rosidl_typesupport_fastrtps_cpp\n'}
+[5.163416] (rc_interaction) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.240345] (-) TimerEvent: {}
+[5.269057] (rc_interaction) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rc_interaction__rosidl_typesupport_c.dir/rosidl_typesupport_c/rc_interaction/msg/sbus__type_support.cpp.o\x1b[0m\n'}
+[5.313592] (rc_interaction) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library librc_interaction__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.340502] (-) TimerEvent: {}
+[5.356884] (rc_interaction) StdoutLine: {'line': b'[ 48%] Built target rc_interaction__rosidl_typesupport_c\n'}
+[5.364875] (rc_interaction) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rc_interaction__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rc_interaction/msg/detail/sbus__type_support.cpp.o\x1b[0m\n'}
+[5.440927] (-) TimerEvent: {}
+[5.542339] (-) TimerEvent: {}
+[5.565645] (rc_interaction) StdoutLine: {'line': b'running egg_info\n'}
+[5.565851] (rc_interaction) StdoutLine: {'line': b'creating rc_interaction.egg-info\n'}
+[5.567389] (rc_interaction) StdoutLine: {'line': b'writing rc_interaction.egg-info/PKG-INFO\n'}
+[5.567730] (rc_interaction) StdoutLine: {'line': b'writing dependency_links to rc_interaction.egg-info/dependency_links.txt\n'}
+[5.567794] (rc_interaction) StdoutLine: {'line': b'writing top-level names to rc_interaction.egg-info/top_level.txt\n'}
+[5.567845] (rc_interaction) StdoutLine: {'line': b"writing manifest file 'rc_interaction.egg-info/SOURCES.txt'\n"}
+[5.569961] (rc_interaction) StdoutLine: {'line': b"reading manifest file 'rc_interaction.egg-info/SOURCES.txt'\n"}
+[5.570353] (rc_interaction) StdoutLine: {'line': b"writing manifest file 'rc_interaction.egg-info/SOURCES.txt'\n"}
+[5.604571] (rc_interaction) StdoutLine: {'line': b'[ 51%] Built target ament_cmake_python_build_rc_interaction_egg\n'}
+[5.636482] (rc_interaction) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/sbus_node.dir/src/model_sbus.cpp.o\x1b[0m\n'}
+[5.643075] (-) TimerEvent: {}
+[5.744944] (-) TimerEvent: {}
+[5.846824] (-) TimerEvent: {}
+[5.924277] (rc_interaction) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library librc_interaction__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.948324] (-) TimerEvent: {}
+[6.040881] (rc_interaction) StdoutLine: {'line': b'[ 57%] Built target rc_interaction__rosidl_typesupport_introspection_cpp\n'}
+[6.050095] (-) TimerEvent: {}
+[6.065948] (rc_interaction) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/xbox_node.dir/src/model_xbox.cpp.o\x1b[0m\n'}
+[6.150381] (-) TimerEvent: {}
+[6.251090] (-) TimerEvent: {}
+[6.351490] (-) TimerEvent: {}
+[6.452778] (-) TimerEvent: {}
+[6.553812] (-) TimerEvent: {}
+[6.655352] (-) TimerEvent: {}
+[6.757831] (-) TimerEvent: {}
+[6.858992] (-) TimerEvent: {}
+[6.963577] (-) TimerEvent: {}
+[7.065468] (-) TimerEvent: {}
+[7.165959] (-) TimerEvent: {}
+[7.267339] (-) TimerEvent: {}
+[7.368092] (-) TimerEvent: {}
+[7.472103] (-) TimerEvent: {}
+[7.572501] (-) TimerEvent: {}
+[7.673987] (-) TimerEvent: {}
+[7.777675] (-) TimerEvent: {}
+[7.878842] (-) TimerEvent: {}
+[7.980394] (-) TimerEvent: {}
+[8.081138] (-) TimerEvent: {}
+[8.183594] (-) TimerEvent: {}
+[8.284591] (-) TimerEvent: {}
+[8.385462] (-) TimerEvent: {}
+[8.487207] (-) TimerEvent: {}
+[8.587848] (-) TimerEvent: {}
+[8.692682] (-) TimerEvent: {}
+[8.793156] (-) TimerEvent: {}
+[8.893984] (-) TimerEvent: {}
+[8.995977] (-) TimerEvent: {}
+[9.098082] (-) TimerEvent: {}
+[9.200336] (-) TimerEvent: {}
+[9.301888] (-) TimerEvent: {}
+[9.402593] (-) TimerEvent: {}
+[9.507237] (-) TimerEvent: {}
+[9.607917] (-) TimerEvent: {}
+[9.709585] (-) TimerEvent: {}
+[9.811870] (-) TimerEvent: {}
+[9.912256] (-) TimerEvent: {}
+[10.013652] (-) TimerEvent: {}
+[10.115086] (-) TimerEvent: {}
+[10.206628] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4\x1b[m\x1b[K:\n'}
+[10.206800] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot::sbus_node::pose_feedback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.206850] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kclamp(double&, float, const float&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206882] (rc_interaction) StderrLine: {'line': b'  296 |     delta_angle = \x1b[01;31m\x1b[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)\x1b[m\x1b[K;\n'}
+[10.206909] (rc_interaction) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.207672] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[10.209599] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[10.209645] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.209681] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.209711] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.209740] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:1\x1b[m\x1b[K:\n'}
+[10.209767] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3656:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209801] (rc_interaction) StderrLine: {'line': b' 3656 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)\n'}
+[10.209828] (rc_interaction) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.209854] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3656:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.209881] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4\x1b[m\x1b[K:\n'}
+[10.209906] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.209935] (rc_interaction) StderrLine: {'line': b'  296 |     delta_angle = \x1b[01;36m\x1b[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)\x1b[m\x1b[K;\n'}
+[10.209962] (rc_interaction) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.209989] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[10.210015] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[10.210042] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.210071] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.210123] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.210152] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:1\x1b[m\x1b[K:\n'}
+[10.210176] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3674:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.210204] (rc_interaction) StderrLine: {'line': b' 3674 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)\n'}
+[10.210230] (rc_interaction) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.210256] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3674:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.210281] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4\x1b[m\x1b[K:\n'}
+[10.210311] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.210338] (rc_interaction) StderrLine: {'line': b'  296 |     delta_angle = \x1b[01;36m\x1b[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)\x1b[m\x1b[K;\n'}
+[10.210362] (rc_interaction) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.216911] (-) TimerEvent: {}
+[10.317122] (-) TimerEvent: {}
+[10.419815] (-) TimerEvent: {}
+[10.488716] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4\x1b[m\x1b[K:\n'}
+[10.489309] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot::sbus_node::pose_feedback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.489645] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kclamp(double&, float, const float&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.489753] (rc_interaction) StderrLine: {'line': b'  296 |     delta_angle = \x1b[01;31m\x1b[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)\x1b[m\x1b[K;\n'}
+[10.489786] (rc_interaction) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.489815] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[10.489855] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[10.489889] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.489916] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.489941] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.489967] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:1\x1b[m\x1b[K:\n'}
+[10.489991] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3656:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.490022] (rc_interaction) StderrLine: {'line': b' 3656 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)\n'}
+[10.490048] (rc_interaction) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.490076] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3656:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.490102] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4\x1b[m\x1b[K:\n'}
+[10.490128] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.490157] (rc_interaction) StderrLine: {'line': b'  296 |     delta_angle = \x1b[01;36m\x1b[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)\x1b[m\x1b[K;\n'}
+[10.490182] (rc_interaction) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.490208] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:62\x1b[m\x1b[K,\n'}
+[10.490235] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[10.490260] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.490292] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.490319] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.490344] (rc_interaction) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:1\x1b[m\x1b[K:\n'}
+[10.490368] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3674:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.490395] (rc_interaction) StderrLine: {'line': b' 3674 |     \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)\n'}
+[10.490420] (rc_interaction) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.490445] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algo.h:3674:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.490470] (rc_interaction) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4\x1b[m\x1b[K:\n'}
+[10.490495] (rc_interaction) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.490521] (rc_interaction) StderrLine: {'line': b'  296 |     delta_angle = \x1b[01;36m\x1b[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)\x1b[m\x1b[K;\n'}
+[10.490552] (rc_interaction) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.520006] (-) TimerEvent: {}
+[10.621182] (-) TimerEvent: {}
+[10.722429] (-) TimerEvent: {}
+[10.826675] (-) TimerEvent: {}
+[10.927589] (-) TimerEvent: {}
+[11.028649] (-) TimerEvent: {}
+[11.129596] (-) TimerEvent: {}
+[11.232555] (-) TimerEvent: {}
+[11.336136] (-) TimerEvent: {}
+[11.447268] (-) TimerEvent: {}
+[11.549553] (-) TimerEvent: {}
+[11.650122] (-) TimerEvent: {}
+[11.752763] (-) TimerEvent: {}
+[11.853370] (-) TimerEvent: {}
+[11.954817] (-) TimerEvent: {}
+[12.056530] (-) TimerEvent: {}
+[12.158190] (-) TimerEvent: {}
+[12.258997] (-) TimerEvent: {}
+[12.359651] (-) TimerEvent: {}
+[12.460093] (-) TimerEvent: {}
+[12.561430] (-) TimerEvent: {}
+[12.664176] (-) TimerEvent: {}
+[12.765201] (-) TimerEvent: {}
+[12.865905] (-) TimerEvent: {}
+[12.967056] (-) TimerEvent: {}
+[13.070197] (-) TimerEvent: {}
+[13.173391] (-) TimerEvent: {}
+[13.276423] (-) TimerEvent: {}
+[13.377582] (-) TimerEvent: {}
+[13.479795] (-) TimerEvent: {}
+[13.581536] (-) TimerEvent: {}
+[13.683676] (-) TimerEvent: {}
+[13.784487] (-) TimerEvent: {}
+[13.885453] (-) TimerEvent: {}
+[13.986825] (-) TimerEvent: {}
+[14.092219] (-) TimerEvent: {}
+[14.194451] (-) TimerEvent: {}
+[14.295364] (-) TimerEvent: {}
+[14.399547] (-) TimerEvent: {}
+[14.500302] (-) TimerEvent: {}
+[14.601895] (-) TimerEvent: {}
+[14.703281] (-) TimerEvent: {}
+[14.806024] (-) TimerEvent: {}
+[14.908085] (-) TimerEvent: {}
+[15.009802] (-) TimerEvent: {}
+[15.111284] (-) TimerEvent: {}
+[15.195568] (rc_interaction) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sbus_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/sbus_node.dir/src/model_sbus.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[15.196126] (rc_interaction) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:595\xef\xbc\x9aCMakeFiles/sbus_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.196431] (rc_interaction) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[15.211983] (-) TimerEvent: {}
+[15.312669] (-) TimerEvent: {}
+[15.414322] (-) TimerEvent: {}
+[15.516573] (-) TimerEvent: {}
+[15.617181] (-) TimerEvent: {}
+[15.721042] (-) TimerEvent: {}
+[15.821851] (-) TimerEvent: {}
+[15.862457] (rc_interaction) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/xbox_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/xbox_node.dir/src/model_xbox.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[15.863199] (rc_interaction) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622\xef\xbc\x9aCMakeFiles/xbox_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.863487] (rc_interaction) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.871084] (rc_interaction) CommandEnded: {'returncode': 2}
+[15.880175] (rc_interaction) JobEnded: {'identifier': 'rc_interaction', 'rc': 2}
+[15.890899] (-) EventReactorShutdown: {}

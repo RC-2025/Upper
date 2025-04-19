@@ -1,0 +1,75 @@
+[0m[1;34mselect arch with x86_64[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:[m[K In member function ‘[01m[Kvoid robot::sbus_node::pose_feedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(double&, float, const float&)[m[K’
+  296 |     delta_angle = [01;31m[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)[m[K;
+      |                   [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+ 3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+  296 |     delta_angle = [01;36m[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)[m[K;
+      |                   [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+ 3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+  296 |     delta_angle = [01;36m[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)[m[K;
+      |                   [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:[m[K In member function ‘[01m[Kvoid robot::sbus_node::pose_feedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kclamp(double&, float, const float&)[m[K’
+  296 |     delta_angle = [01;31m[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)[m[K;
+      |                   [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&)[m[K’
+ 3656 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3656:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+  296 |     delta_angle = [01;36m[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)[m[K;
+      |                   [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::clamp(const _Tp&, const _Tp&, const _Tp&, _Compare)[m[K’
+ 3674 |     [01;36m[Kclamp[m[K(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_algo.h:3674:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:296:29:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kdouble[m[K’ and ‘[01m[Kfloat[m[K’)
+  296 |     delta_angle = [01;36m[Kstd::clamp(delta_angle, -ANGULAR_MAX, ANGULAR_MAX)[m[K;
+      |                   [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sbus_node.dir/build.make:76：CMakeFiles/sbus_node.dir/src/model_sbus.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:595：CMakeFiles/sbus_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/xbox_node.dir/build.make:76：CMakeFiles/xbox_node.dir/src/model_xbox.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:622：CMakeFiles/xbox_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

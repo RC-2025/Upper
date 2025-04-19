@@ -1,0 +1,19 @@
+[0m[1;34mselect arch with x86_64[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_sbus.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:[m[K In member function ‘[01m[Kvoid robot::sbus_node::pose_feedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:294:44:[m[K [01;31m[Kerror: [m[K‘[01m[KANGULAR_MAX[m[K’ was not declared in this scope
+  294 |     delta_angle = std::clamp(delta_angle, -[01;31m[KANGULAR_MAX[m[K, ANGULAR_MAX);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zbt/Upper-main/rc_interaction/src/model_xbox.cpp:4[m[K:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:[m[K In member function ‘[01m[Kvoid robot::sbus_node::pose_feedback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/zbt/Upper-main/rc_interaction/include/rc_interaction/sbus_node.hpp:294:44:[m[K [01;31m[Kerror: [m[K‘[01m[KANGULAR_MAX[m[K’ was not declared in this scope
+  294 |     delta_angle = std::clamp(delta_angle, -[01;31m[KANGULAR_MAX[m[K, ANGULAR_MAX);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sbus_node.dir/build.make:76：CMakeFiles/sbus_node.dir/src/model_sbus.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:595：CMakeFiles/sbus_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/xbox_node.dir/build.make:76：CMakeFiles/xbox_node.dir/src/model_xbox.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:622：CMakeFiles/xbox_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

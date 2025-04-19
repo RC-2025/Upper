@@ -1,0 +1,20 @@
+[  8%] Built target rc_interaction__rosidl_generator_c
+[ 11%] Built target rc_interaction__cpp
+[ 20%] Built target rc_interaction__rosidl_typesupport_cpp
+[ 20%] Built target ament_cmake_python_copy_rc_interaction
+[ 28%] Built target rc_interaction__rosidl_typesupport_fastrtps_c
+[ 37%] Built target rc_interaction__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target rc_interaction__rosidl_typesupport_introspection_c
+[ 54%] Built target rc_interaction__rosidl_typesupport_c
+[ 62%] Built target rc_interaction__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target sbus_node[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sbus_node.dir/src/model_sbus.cpp.o[0m
+running egg_info
+writing rc_interaction.egg-info/PKG-INFO
+writing dependency_links to rc_interaction.egg-info/dependency_links.txt
+writing top-level names to rc_interaction.egg-info/top_level.txt
+reading manifest file 'rc_interaction.egg-info/SOURCES.txt'
+writing manifest file 'rc_interaction.egg-info/SOURCES.txt'
+[ 65%] Built target ament_cmake_python_build_rc_interaction_egg
+[35m[1mConsolidate compiler generated dependencies of target xbox_node[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/xbox_node.dir/src/model_xbox.cpp.o[0m

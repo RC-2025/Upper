@@ -1,0 +1,2 @@
+Invoking command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zbt/Upper-main/rc_interaction/build/rc_interaction -- -j2 -l2
+Invoked command in '/home/zbt/Upper-main/rc_interaction/build/rc_interaction' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zbt/Upper-main/rc_interaction/build/rc_interaction -- -j2 -l2
